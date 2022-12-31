@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem;
+  flex-wrap: wrap;
+  border-bottom: 3px solid purple;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#spanClarus {
+  color: rgb(170, 32, 147);
+}
+
+.header-right a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.header-right a:hover {
+  color: rgb(170, 32, 147);
+}
+
+/* .show-case-img{display: flex;} */
+
+.show-case-img {
+  background-image: url(showcase.jpg);
+  max-width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: round;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.h1-p h1 {
+  margin-bottom: 1rem;
+}
+
+.email-submit {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 5rem;
+  align-items: center;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  
+}
+#email {
+  padding: 0.5rem;
+  margin-right: 0.3rem;
+  width: 18vw;
+}
+#submit {
+  background-color: orangered;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: none;
+}
+#submit:hover {
+  cursor: pointer;
+  color: orangered;
+  background-color: white;
+  font-weight: 600;
+}
+
+.container-courses {
+  display: flex;
+  /* padding: 3rem; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.html5Markup,
+.css3Styling,
+.graphicDesign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  
+}
+#html-logo,#css-logo,#graphic-logo{
+  width: 8vw;
+}
+
+.html5Markup p,
+.css3Styling p,
+.graphicDesign p {
+  padding: 0.3rem;
+  width: 20vw;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 6rem;
+  padding: 0.7rem;
+  color: white;
+}

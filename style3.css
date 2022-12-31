@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem;
+  flex-wrap: wrap;
+  border-bottom: 3px solid purple;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#spanClarus {
+  color: rgb(170, 32, 147);
+}
+
+.header-right a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.header-right a:hover {
+  color: rgb(170, 32, 147);
+}
+
+.email-submit {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 5rem;
+  align-items: center;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+#email {
+  padding: 0.5rem;
+  margin-right: 0.3rem;
+  width: 18vw;
+}
+#submit {
+  background-color: orangered;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: none;
+}
+#submit:hover {
+  cursor: pointer;
+  color: orangered;
+  background-color: white;
+  font-weight: 600;
+}
+
+.services {
+  display: flex;
+  width: 100%;
+  height: 61.6vh;
+  gap: 3rem;
+  padding: 0.7rem;
+  justify-content: space-between;
+}
+
+.services-h3 {
+  margin-bottom: 0.5rem;
+}
+.services-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.services-left-div {
+  background-color: rgba(172, 161, 172, 0.3);
+  width: 100%;
+  height: 17vh;
+  margin-bottom: 0.5rem;
+  /* border: 1px solid rgba(0, 0, 0, 0.212); */
+  padding: 0.5rem 0.5rem 0 0.5rem ; 
+  overflow: auto;
+}
+
+
+
+.services-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1.8rem;
+  margin-right: 1rem;
+  width: 30vw;
+  
+  color: white;
+}
+
+.services-right h3{
+    margin-bottom: 1rem;
+}
+
+#name,#email,#textarea{
+    width: 25vw;
+    padding: 0.5rem;
+}
+
+
+.services-left-div h3{margin-bottom: 0.7rem;}
+
+
+
+#submit2 {
+    background-color: orangered;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border: none;
+  }
+  #submit2:hover {
+    cursor: pointer;
+    color: orangered;
+    background-color: white;
+    font-weight: 600;
+  }
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 6rem;
+  padding: 0.7rem;
+  color: white;
+}
